@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-compatible">
+    <meta name="viewport" value="width=device-width, initial-scale=1">
+    <title>Color Picker</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container jumbotron">
+      <h1>Color Picker</h1>
+      <h2><span id="hexCode">Hex Code</span> / <span id="rgbCode">RGB Code</span></h2>
+      <div class="row">
+        <div class="col-sm-4">
+          <button class="btn btn-danger btn-block" id="red" value=0>Red</button>
+          <input type="range" min="0" max="254" id="redVal">
+        </div>
+        <div class="col-sm-4">
+          <button class="btn btn-primary btn-block" id="blue" value=0>Blue</button>
+          <input type="range" min="0" max="254" id="blueVal">
+        </div>
+        <div class="col-sm-4">
+          <button class="btn btn-success btn-block" id="green" value=0>Green</button>
+          <input type="range" min="0" max="254" id="greenVal">
+        </div>
+      </div>
+    </div>
+  <script src="js/jquery-1.12.2.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/scripts.js"></script>
+  </body>
+</html>

@@ -4,8 +4,8 @@ $(document).ready(setBackground());
 
 function setBackground() {
   myColors[0] = parseInt($("#redVal").val());
-  myColors[1] = parseInt($("#blueVal").val());
-  myColors[2] = parseInt($("#greenVal").val());
+  myColors[1] = parseInt($("#greenVal").val());
+  myColors[2] = parseInt($("#blueVal").val());
   var myBackground = "rgb("+ myColors[0] +","+ myColors[1]  +","+ myColors[2] +")";
   $("body").css("background", myBackground);
   $("#rgbCode").text("rgb("+ myColors[0] +","+ myColors[1]  +","+ myColors[2] +")");

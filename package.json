@@ -1,0 +1,34 @@
+{
+  "name": "themebuilder",
+  "version": "1.1.0",
+  "description": "A website to pick colors for a theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karenfreemansmith/colorpicker.git"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "author": "Karen Freeman-Smith",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/karenfreemansmith/colorpicker/issues"
+  },
+  "homepage": "https://github.com/karenfreemansmith/colorpicker#readme",
+  "dependencies": {
+    "browser-sync": "^2.13.0",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-jshint": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "jshint": "^2.9.2",
+    "mocha": "^2.5.3"
+  }
+}

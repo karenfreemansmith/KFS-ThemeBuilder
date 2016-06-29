@@ -1,0 +1,12 @@
+.btn {
+  margin-bottom: 15px;
+}
+
+.jumbotron {
+  margin-top: 10%;
+  border-radius: 20px;
+  padding: 25px;
+  opacity: .85;
+  background-color: #fff;
+  color: #333;
+}

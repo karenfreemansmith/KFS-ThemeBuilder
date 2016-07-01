@@ -1,7 +1,7 @@
-# :sparkles: [Color Picker](http://karenfreemansmith.github.io/colorpicker)
+# :sparkles: [Theme Builder](http://karenfreemansmith.github.io/colorpicker)
 ![project screenshot](/img/screenshot.jpg)
 
-__Version 1: April 11, 2016__
+__Version 1.1.0: June 30, 2016__
 ## by [Karen Freeman-Smith](http://karenfreemansmith.github.io)
 
 ### Description
